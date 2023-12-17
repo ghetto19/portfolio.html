@@ -1,0 +1,34 @@
+/* Reset default margin and padding */
+* {
+    margin: 50px;
+    padding: 20;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('gallery\ background.jpg');
+    background-size: cover; 
+    background-position: center;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .image {
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  

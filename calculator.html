@@ -1,0 +1,35 @@
+<! DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="calculator.css">
+        <title>Calculator </title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="output"></h1>
+            <div class="buttons">
+                <button class="btn c" onclick="c()">C</button>
+                <button class="btn printable operation">%</button>
+                <button class="btn delete" onclick="del()">del</button>
+                <button class="btn printable operation">/</button>
+                <button class="btn printable" onclick="insert(7)">7</button>
+                <button class="btn printable">8</button>
+                <button class="btn printable">9</button>
+                <button class="btn printable operation">*</button>
+                <button class="btn printable">4</button>
+                <button class="btn printable">5</button>
+                <button class="btn printable">6</button>
+                <button class="btn printable operation">-</button>
+                <button class="btn printable">1</button>
+                <button class="btn printable">2</button>
+                <button class="btn printable">3</button>
+                <button class="btn printable operation">+</button>
+                <button class="btn printable">00</button>
+                <button class="btn printable">0</button>
+                <button class="btn printable">.</button>
+                <button class="btn" onclick="calculate()">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

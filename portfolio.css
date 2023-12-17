@@ -1,0 +1,87 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+}
+
+.header {
+  background-color: #4267B2;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.personal-info,
+.favorite-song {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4267B2;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* Existing styles remain unchanged */
+
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff; /* Adding a border for contrast */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding a shadow for depth */
+}
+/* Existing styles remain unchanged */
+
+.navigation {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
